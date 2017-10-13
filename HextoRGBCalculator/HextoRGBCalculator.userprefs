@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{43769296-4165-434F-BA3C-0E762994DB6F}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main.storyboard">
     <Files>
       <File FileName="AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Main.storyboard" />
+      <File FileName="ViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.HextoRGBCalculator>
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.HextoRGBCalculator>
+  <MonoDevelop.Ide.ItemProperties.HextoRGBCalculator PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3974D6A1-53F9-4DA4-9052-C02A7C91D667" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
