@@ -15,7 +15,7 @@ namespace HextoRGBCalculator
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel blueValueLevel { get; set; }
+        UIKit.UILabel blueValueLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -23,17 +23,21 @@ namespace HextoRGBCalculator
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel greenValueLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField hexValueTextField { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel redValueLevel { get; set; }
+        UIKit.UILabel redValueLabel { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (blueValueLevel != null) {
-                blueValueLevel.Dispose ();
-                blueValueLevel = null;
+            if (blueValueLabel != null) {
+                blueValueLabel.Dispose ();
+                blueValueLabel = null;
             }
 
             if (convertButton != null) {
@@ -41,14 +45,19 @@ namespace HextoRGBCalculator
                 convertButton = null;
             }
 
+            if (greenValueLabel != null) {
+                greenValueLabel.Dispose ();
+                greenValueLabel = null;
+            }
+
             if (hexValueTextField != null) {
                 hexValueTextField.Dispose ();
                 hexValueTextField = null;
             }
 
-            if (redValueLevel != null) {
-                redValueLevel.Dispose ();
-                redValueLevel = null;
+            if (redValueLabel != null) {
+                redValueLabel.Dispose ();
+                redValueLabel = null;
             }
         }
     }

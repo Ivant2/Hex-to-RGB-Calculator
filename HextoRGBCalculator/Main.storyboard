@@ -79,8 +79,8 @@
                     <connections>
                         <outlet property="hexValueTextField" destination="581" id="name-outlet-581"/>
                         <outlet property="convertButton" destination="582" id="name-outlet-582"/>
-                        <outlet property="redValueLevel" destination="386" id="name-outlet-386"/>
-                        <outlet property="redValueLevel" destination="387" id="name-outlet-387"/>
+                        <outlet property="redValueLabel" destination="386" id="name-outlet-386"/>
+                        <outlet property="greenValueLabel" destination="387" id="name-outlet-387"/>
                         <outlet property="blueValueLevel" destination="580" id="name-outlet-580"/>
                     </connections>
                 </viewController>
