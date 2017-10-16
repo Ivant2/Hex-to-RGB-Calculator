@@ -29,6 +29,12 @@ namespace HextoRGBCalculator
             int redValue = int.Parse(redHexValue, System.Globalization.NumberStyles.HexNumber); 
             int greenValue = int.Parse(greenHexValue, System.Globalization.NumberStyles.HexNumber);
             int blueValue = int.Parse(blueHexValue, System.Globalization.NumberStyles.HexNumber);
+
+            redValueLabel.Text = redValue.ToString();
+            greenValueLabel.Text = greenValue.ToString();
+            blueValueLabel.Text = blueValue.ToString();
+
+            colorView.BackgroundColor = UIColor.FromRGB(redValue, greenValue, blueValue);
         }
 
         public override void DidReceiveMemoryWarning()

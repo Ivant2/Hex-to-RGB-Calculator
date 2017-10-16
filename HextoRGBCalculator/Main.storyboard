@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
@@ -54,6 +54,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <view contentMode="scaleToFill" id="1394" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="322" width="414" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES"/>
+                            </view>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
@@ -63,6 +68,7 @@
                                 <exclude reference="580"/>
                                 <exclude reference="581"/>
                                 <exclude reference="582"/>
+                                <exclude reference="1394"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -73,6 +79,7 @@
                                 <include reference="580"/>
                                 <include reference="581"/>
                                 <include reference="582"/>
+                                <include reference="1394"/>
                             </mask>
                         </variation>
                     </view>
@@ -81,7 +88,8 @@
                         <outlet property="convertButton" destination="582" id="name-outlet-582"/>
                         <outlet property="redValueLabel" destination="386" id="name-outlet-386"/>
                         <outlet property="greenValueLabel" destination="387" id="name-outlet-387"/>
-                        <outlet property="blueValueLevel" destination="580" id="name-outlet-580"/>
+                        <outlet property="blueValueLabel" destination="580" id="name-outlet-580"/>
+                        <outlet property="colorView" destination="1394" id="name-outlet-1394"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
